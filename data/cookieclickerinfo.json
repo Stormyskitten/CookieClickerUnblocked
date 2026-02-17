@@ -1,0 +1,51 @@
+{
+    "versions": [
+        {
+            "text": "Latest",
+            "v": "LIVE",
+            "url": "$DIR"
+        }
+    ],
+    "links": [
+        {
+            "text": "<img src=\"img/topbarSteam.png\" style=\"margin-left:0px;\"> Steam",
+            "tooltip": "Play Cookie Clicker on Steam!<br>Featuring music by C418.",
+            "style": "padding-left:26px;",
+            "class": "promoLink",
+            "url": "https://store.steampowered.com/app/1454400/Cookie_Clicker/",
+            "remove": "topbarSteamCC+"
+        },
+        {
+            "text": "<img src=\"img/topbarMobile.png\" style=\"margin-left:2px;\"> Android",
+            "tooltip": "Play Cookie Clicker on your phone!",
+            "style": "padding-left:20px;",
+            "class": "promoLink",
+            "url": "https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker",
+            "remove": "topbarMobileCC+"
+        },
+        {
+            "off": 1,
+            "text": "<img src=\"img/topbarXbox.png\" style=\"margin-left:0px;\"><img src=\"img/topbarPS.png\" style=\"margin-left:22px;\"><img src=\"img/topbarSwitch.png\" style=\"margin-left:44px;\"><span class=\"hideCompressed\" style=\"padding-left:8px;\">Consoles</span>",
+            "tooltip": "Play Cookie Clicker on Xbox, PlayStation and Nintendo Switch!",
+            "style": "padding-left:60px;",
+            "class": "promoLink",
+            "url": "https://cookieclicker.com/"
+        },
+        {
+            "text": "Consoles",
+            "tooltip": "Play Cookie Clicker on Xbox, PlayStation and Nintendo Switch!",
+            "class": "promoLink",
+            "url": "https://cookieclicker.com/"
+        },
+        {
+            "text": "<img src=\"img/fangamerClickerPic.png\" style=\"margin-left:2px;margin-top:2px;\"> Cookie Clicker clicker<div style=\"position:absolute;right:8px;bottom:3px;font-size:10px;\">by Fangamer</div>",
+            "style": "padding-left:40px;",
+            "tooltip": "Clicky merch by Fangamer!<br>There's shirts too!",
+            "class": "promoLink",
+            "url": "https://fanga.me/r/cookie-clicker-collection"
+        }
+    ],
+    "extraCss": [
+        "#topBar .promoLink a{color:#06c;}"
+    ]
+}
